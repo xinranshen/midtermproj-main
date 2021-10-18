@@ -1,0 +1,81 @@
+body {
+  background: #f7f0ea;
+  position: fixed;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* trouble-shooting with body width stuck in 980px: https://stackoverflow.com/questions/20400755/css-body-width-does-not-fill-100-percent */
+
+.category {
+  text-decoration: none; /* why this isnt working lol */
+  margin-left: 60px;
+  margin-top: 1px;
+  width: 200px;
+}
+
+a:hover {
+  text-decoration: none;
+  width: 1240px;
+}
+
+#header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.title {
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+.wrapper {
+  display: flex;
+
+  height: auto;
+  min-height: 100%;
+  height: 100%;
+  overflow-x: scroll;
+}
+.menu-container {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: 0px;
+  flex-direction: column;
+  float: left;
+  flex: 1;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 500px;
+}
+.content-container {
+  float: left;
+  margin-right: 0px;
+  flex: 4;
+}
+.box {
+  background: #fb9d88;
+
+  width: 240px;
+  height: 40px;
+  margin: auto;
+}
+.page {
+  background: azure;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 0px;
+  margin-right: 70px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 40px;
+}

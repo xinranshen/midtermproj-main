@@ -145,10 +145,11 @@ img {
   height: 200px;
   /* margin-top: 50%; */
   /* margin-left: 80%; */
-  border-radius: 40px;
 }
 
 .marisaimg {
+  width: 150px;
+  height: 200px;
   margin-left: 40%;
   /* width: 250px; */
   /* margin-top: 30%; */
@@ -352,5 +353,25 @@ img {
 }
 
 iframe {
-  margin-top: 50%;
+  margin-top: 10%;
+}
+
+.thoughts {
+  font-family: "Noto Sans Mono", monospace;
+  color: #aaaaf5;
+  font-size: 15px;
+  margin-top: 19%;
+}
+
+.screenshots {
+  width: 400px;
+  height: 400px;
+}
+
+.thoughtstitle {
+  font-family: "Noto Sans Mono", monospace;
+  color: #d4d4ff;
+  font-size: 20px;
+  margin-top: 20%;
+  text-align: center;
 }
